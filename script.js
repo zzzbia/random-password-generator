@@ -52,12 +52,14 @@ const generatePassword = () => {
 	// putting every character from string into an array with split method
 	let usableCharsArr = usableChars.split("");
 
+	// if usableChars array length is 0 then alert sent to window to please select one type of character
 	if (usableCharsArr.length === 0) {
 		alert(
 			"Please select atleast one type of character (Lowercase, Uppercase, Numeric or Special characters.)"
 		);
 	}
 
+	// iterating through passwordCharLength each time and then creating a random integer number that is assigned as a variable called randomKey
 	for (i = 0; i < passwordCharLength; i++) {
 		const randomKey = Math.floor(Math.random() * usableCharsArr.length);
 		passwordArr.push(usableCharsArr[randomKey]);
