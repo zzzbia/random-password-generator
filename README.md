@@ -27,16 +27,18 @@
 
 
 ## Deployed Link
+- [Click me to try it Live](https://zzzbia.github.io/random-password-generator/)
 
 ## 🖼️ Images and Screenshots
+![Password Generator](https://github.com/zzzbia/random-password-generator/blob/main/assets/images/whatitshouldlooklike.png?=raw=true)
 
 ## References 📝
 
--[W3 Schools Javascript Splitting](https://www.w3schools.com/jsref/jsref_split.asp)
--[Javascript Array](https://sebhastian.com/javascript-array-string/)
--[MDN Javascript Global Objects Math.Random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
--[CodeAcademy Forum Math.Random & MathFloor](https://www.codecademy.com/forum_questions/556f210b9113cbad080009bc)
--[Freecodecamp Math.Random Method Explained](https://www.freecodecamp.org/news/javascript-math-random-method-explained/)
--[Javascript Glossary](https://www.codecademy.com/article/glossary-javascript)
--[README markdown syntax guide](https://www.markdownguide.org/cheat-sheet/#extended-syntax)
--[MDN Javascript NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN)
+- [W3 Schools Javascript Splitting](https://www.w3schools.com/jsref/jsref_split.asp)
+- [Javascript Array](https://sebhastian.com/javascript-array-string/)
+- [MDN Javascript Global Objects Math.Random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+- [CodeAcademy Forum Math.Random & MathFloor](https://www.codecademy.com/forum_questions/556f210b9113cbad080009bc)
+- [Freecodecamp Math.Random Method Explained](https://www.freecodecamp.org/news/javascript-math-random-method-explained/)
+- [Javascript Glossary](https://www.codecademy.com/article/glossary-javascript)
+- [README markdown syntax guide](https://www.markdownguide.org/cheat-sheet/#extended-syntax)
+- [MDN Javascript NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN)
