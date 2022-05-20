@@ -1,4 +1,4 @@
-//Setting strings of possible variable values
+//Setting strings of possible character values
 const lowercase = "abcdefghijklmnopqrstuvwxyz";
 const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const numeric = "0123456789";
@@ -36,23 +36,25 @@ const generatePassword = () => {
 		usableChars += uppercase;
 	}
 
-	const useNumeric = confirm("Would you like to use numeric characters?");
+	const useNumeric = confirm(
+		"Would you like to use Numeric characters? ex.1234 "
+	);
 	if (useNumeric) {
 		usableChars += numeric;
 	}
 
 	const useSpecialCharacters = confirm(
-		"Would you like to use special characters?"
+		"Would you like to use Special characters? ex. !@"
 	);
 	if (useSpecialCharacters) {
 		usableChars += special;
 	}
-	//setting an empty array called "passwordArr"
+	//Setting an empty array called "passwordArr"
 	let passwordArr = [];
-	// putting every character from string into an array with split method
+	//Putting every character from string into an array with split method
 	let usableCharsArr = usableChars.split("");
 
-	// if usableChars array length is 0 then alert sent to window to please select one type of character
+	// if statement usableChars array length is 0 then alert sent to window to please select one type of character
 	if (usableCharsArr.length === 0) {
 		alert(
 			"Please select atleast one type of character (Lowercase, Uppercase, Numeric or Special characters.)"
@@ -66,12 +68,11 @@ const generatePassword = () => {
 	}
 
 	const password = passwordArr.join("");
-	//
-	//Logging total Password length
+	//Logging total Password length with below comment
 	//console.log("password length:" + password.length);
 	return password;
 
-	// When testing what characters are available, consolelog usableChars
+	// When testing what characters are available, console log usableChars
 	//console.log(usableChars);
 };
 

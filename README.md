@@ -27,10 +27,12 @@
 
 
 ## Deployed Link
-- [Click me to try it Live](https://zzzbia.github.io/random-password-generator/)
+- [Click me to try it LIVE](https://zzzbia.github.io/random-password-generator/)
 
 ## 🖼️ Images and Screenshots
 ![Password Generator](https://github.com/zzzbia/random-password-generator/blob/main/assets/images/whatitshouldlooklike.png?=raw=true)
+![Window Prompt](https://github.com/zzzbia/random-password-generator/blob/main/assets/images/promptanswer.png?=raw=true)
+![Generated Example Password](https://github.com/zzzbia/random-password-generator/blob/main/assets/images/generatedpassword.png?=raw=true)
 
 ## References 📝
 
@@ -42,3 +44,5 @@
 - [Javascript Glossary](https://www.codecademy.com/article/glossary-javascript)
 - [README markdown syntax guide](https://www.markdownguide.org/cheat-sheet/#extended-syntax)
 - [MDN Javascript NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN)
+- [W3 Schools Window Object Alert](https://www.w3schools.com/jsref/met_win_alert.asp)
+- [W3 Schools Window Confirm](https://www.w3schools.com/jsref/met_win_confirm.asp)
